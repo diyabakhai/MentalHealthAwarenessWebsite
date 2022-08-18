@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <link rel="stylesheet" href="writeyourstory.css">
+    <title> The Inner Hour</title>
+
+
+</head>
+
+<body>
+    <section>
+        <!-- Navigation Bar-->
+        <nav id="navbar">
+            <div id="logo">
+                <img src="images/theinnerhour.png" alt="The inner hour" width=150px height=150px>
+            </div>
+            <ul>
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="index.html">Quick Tips</a></li>
+                <li class="item"><a href="writeyourstory.html">Write Your Story</a></li>
+                <li class="item"><a href="blog.html">Blogs</a></li>
+                <li class="item"><a href="aboutus.html">About Us</a></li>
+                <li class="item"><a href="contactus.html">Contact Us</a></li>
+                <li class ="item"><a href = "http://localhost:3000/">FAQ</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!-- Navigation Bar Ends-->
+
+    <!--Home Head-->
+    <section id="head_home">
+        <!--<h1 class="h1-primary" style="border:white; border-width:5px; border-style:solid; background-color: aliceblue;">W&nbsp; R&nbsp; I&nbsp; T&nbsp; E&nbsp; &nbsp;&nbsp;A&nbsp;&nbsp; &nbsp; S&nbsp; T
+            &nbsp; O&nbsp; R&nbsp; Y</h1> -->
+
+    </section>
+
+    <section id="write">
+        <h1 class="h1_primary ">SHARE YOUR PERSONAL STORIES OF TRIUMPH</h1>
+        <div class="para">
+            <p>It is possible to overcome the mental health problems, all it takes is a little willpower & some help.
+                Share your stories of recovery & inspire people</p>
+            <span style="margin: 25rem;">in overcoming their struggles of various kinds.</span></p>
+        </div>
+        <div id="write_box">
+            <form name="RegForm" action="wysthanks.html" onsubmit="return formvalidate()" method="post">
+                <div class="form_group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <br>
+                <div class="form_group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <br>
+                <div class="form_group">
+                    <label for="subject">Subject: </label>
+                    <input type="text" name="subject" id="subject" placeholder="Enter your subject">
+                </div>
+                <br>
+                <div class="form_group">
+                    <label for="message">Share Story: </label>
+                    <textarea name="message" id="message" placeholder="Type your Message" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <br>
+                <a href = "wysthanks.html"></a>
+                <button class="submit">
+                    Submit
+                </button>
+            </form>
+
+        </div>
+        
+
+    </section>
+    <script src="writeyourstory.js"></script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+/* *{
+    margin:0;
+    padding:0;
+} */
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    padding-top: 10px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #F3E1CE;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    
+}
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 5px 30px;
+}
+
+#logo img{
+    height: 100px;
+    
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: #946B45;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/*Home image and text begins*/
+#head_home 
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 250%;
+}
+
+
+#head_home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#head_home::before{ 
+    content: "";
+    position: absolute;
+    background: url('images/blogmain2.gif') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    margin-top: 50px;
+    
+}
+
+/*Home image and text ends*/
+/* blog */
+/* .contain {
+    position: relative;
+    width: 50%;
+
+  }
+  
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 193px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #D2BD96;
+    padding: 0.5rem;
+  }
+  
+  .contain:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.row
+{
+    margin-top: 5rem;
+    margin-left: 0.1rem ;
+    gap: 20px;
+}
+#part:hover
+{
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+} */

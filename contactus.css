@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    padding-top: 10px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #F3E1CE;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    
+}
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 5px 30px;
+}
+
+#logo img{
+    height: 100px;
+    
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: #946B45;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/*Home image and text begins*/
+#head_home h1{
+    color:black;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: xx-large;
+}
+
+
+#head_home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#head_home::before{ 
+    content: "";
+    position: absolute;
+    background: url('images/contactus2.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    margin-top: 10px;
+    
+}
+/*Home image and text ends*/
+
+/* Contact Us Form */
+.h1_primary
+{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: xx-large;
+    font-family: 'Baloo Bhai', cursive;
+}
+.para 
+{
+    margin-left: 28%;
+    margin-right: 28%;
+    align-items: center;
+    font-size: 20px;
+    
+}
+#write_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    background-color: #F3E1CE;
+    border: 2px solid #F3E1CE;
+    padding: 30px;
+    margin: 2px 120px;
+    
+}
+
+#write_box input, 
+#write_box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#write_box form{
+    width: 40%;
+}
+
+#write_box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+/*submit hover */
+.submit
+{
+    background-color: burlywood ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.submit:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

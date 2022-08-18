@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="stats/xsl"> -->
+<catalog>
+   <statistics>
+          <disorder> Depressive disorders</disorder>
+          <bothgenders> 33·8% (29·5 to 38·5) </bothgenders>
+          <males> 28·9% (25·0 to 33·3) </males>
+          <females> 38·6% (34·0 to 43·7)</females>
+   </statistics>
+   <statistics>
+          <disorder> Anxiety disorders</disorder>
+          <bothgenders> 19·0% (15·9 to 22·4) </bothgenders>
+          <males> 16·2% (13·5 to 19·2) </males>
+          <females> 21·7% (18·1 to 25·5)</females>
+   </statistics>
+   <statistics>
+          <disorder> Depressive disorders</disorder>
+          <bothgenders> 33·8% (29·5 to 38·5) </bothgenders>
+          <males> 28·9% (25·0 to 33·3) </males>
+          <females> 38·6% (34·0 to 43·7)</females>
+   </statistics>
+   <statistics>
+          <disorder> Schizophrenia </disorder>
+          <bothgenders> 9·8% (7·7 to 12·4) </bothgenders>
+          <males> 11·2% (8·8 to 14·0) </males>
+          <females> 8·5% (6·7 to 10·8) </females>
+   </statistics>
+   <statistics>
+          <disorder> Conduct disorder </disorder>
+          <bothgenders> 5·9% (4·0 to 8·1) </bothgenders>
+          <males> 7·9% (5·5 to 10·9) </males>
+          <females> 3·9% (2·6 to 5·6) </females>
+   </statistics>
+   <statistics>
+          <disorder> Eating disorders </disorder>
+          <bothgenders> 2·2% (1·7 to 2·8)</bothgenders>
+          <males> 1·5% (1·1 to 2·0) </males>
+          <females> 2·8% (2·2 to 3·6) </females>
+   </statistics>
+   <statistics>
+          <disorder> Bipolar disorder </disorder>
+          <bothgenders> 0·6% (0·5 to 0·7) </bothgenders>
+          <males> 0·6% (0·5 to 0·7)</males>
+          <females> 0·6% (0·5 to 0·7) </females>
+   </statistics>
+    <statistics>
+        <disorder> Autism spectrum disorders </disorder>
+        <bothgenders> 0·4% (0·3 to 0·4) </bothgenders>
+        <males> 0·5% (0·5 to 0·6)</males>
+        <females> 0·2% (0·2 to 0·2) </females>
+   </statistics>
+</catalog>
